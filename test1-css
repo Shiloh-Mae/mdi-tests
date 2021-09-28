@@ -1,0 +1,58 @@
+#text-at-top {
+	padding: 15px;
+	font-family: monospace;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	text-align: center;
+}
+.container1 {
+	padding: 3px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	position-relative
+	width: 50%;
+}
+#button1 {
+	 position: absolute;
+  top: 68%;
+  left:120px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#button2 {
+	 position: absolute;
+  top: 68%;
+  left:400px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#button3{
+	 position: absolute;
+  top: 68%;
+  left:650px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
