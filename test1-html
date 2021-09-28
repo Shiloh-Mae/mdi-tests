@@ -1,0 +1,13 @@
+	<!DOCTYPE html>
+	<html>
+	<link rel="stylesheet" type="text/css" href="/Users/macbookpro/Desktop/coding/simple-portfolio/style.css">
+<h1 id="text-at-top">Text at Top</h1>
+<img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
+<button class="container1" id="button1">Button</button>
+<img src="https://via.placeholder.com/250" id="ph-img2" class="container1">
+<button class="container1" id="button2">Button</button>
+<img src="https://via.placeholder.com/250" id="ph-img3" class="container1">
+<button class="container1" id="button3">Button</button>
+
+
+	</html>
