@@ -6,53 +6,29 @@
 	border-width: 2px;
 	text-align: center;
 }
-.container1 {
-	padding: 3px;
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	position-relative
-	width: 50%;
+.card {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 15px;
+    padding: 4px;
+    background-color: #87d6d6;
 }
+
+.flex-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
 #button1 {
-	 position: absolute;
-  top: 68%;
-  left:120px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-#button2 {
-	 position: absolute;
-  top: 68%;
-  left:400px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-#button3{
-	 position: absolute;
-  top: 68%;
-  left:650px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
+    position: relative;
+    bottom: .3%;
+    left: 40%;
+ }
+
+ @media screen and (max-width: 480px) {
+    .flex-container {
+        flex-direction: column;
+        margin-left: 20%;
+        }
