@@ -6,17 +6,17 @@
 <div class="flex-container">
 <div class="card">
 <img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+<a href="https://bit.ly/2ZwsWIi" target="_blank">
 <button onclick="window" id="button1">Button</button></a>
 </div>
 <div class="card">
 <img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+<a href="https://bit.ly/2ZwsWIi" target="_blank">
 <button onclick="window" id="button1">Button</button></a>
 </div>
 <div class="card">
 <img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+<a href="https://bit.ly/2ZwsWIi" target="_blank">
 <button onclick="window" id="button1">Button</button></a>
 </div>
 </div>
