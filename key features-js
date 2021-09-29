@@ -1,0 +1,4 @@
+<script>
+var result = document.getElementsByID("key-features-section")[0].innerHTML;
+console.log(result);
+</script>
