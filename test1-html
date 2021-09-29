@@ -2,6 +2,7 @@
 	<html>
 	<link rel="stylesheet" type="text/css" href="/home/user/Documents/code/mdi-test1/style.css">
 <h1 id="text-at-top">Header Text</h1>
+<!--card1-->
 <div class="column">
 <div class="flex-container">
 <div class="card">
@@ -9,11 +10,13 @@
 <a href="https://bit.ly/2ZwsWIi" target="_blank">
 <button onclick="window" id="button1">Button</button></a>
 </div>
+<!--card2-->
 <div class="card">
 <img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
 <a href="https://bit.ly/2ZwsWIi" target="_blank">
 <button onclick="window" id="button1">Button</button></a>
 </div>
+<!--card 3-->
 <div class="card">
 <img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
 <a href="https://bit.ly/2ZwsWIi" target="_blank">
@@ -21,4 +24,20 @@
 </div>
 </div>
 </div>
+
+<!-- js -->
+<script type="text/javascript">
+var test = document.getElementById('button1');
+test.onclick = function() {
+    console.log('Clicked button1');
+var test = document.getElementById('button2');
+}
+test.onclick = function() {
+    console.log('Clicked button2');
+}
+var test = document.getElementById('button3');
+test.onclick = function() {
+    console.log('Clicked button3');
+    }
+</script>
 	</html>
