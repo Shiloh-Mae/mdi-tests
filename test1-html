@@ -1,13 +1,24 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html>
-	<link rel="stylesheet" type="text/css" href="/Users/macbookpro/Desktop/coding/simple-portfolio/style.css">
-<h1 id="text-at-top">Text at Top</h1>
+	<link rel="stylesheet" type="text/css" href="/home/user/Documents/code/mdi-test1/style.css">
+<h1 id="text-at-top">Header Text</h1>
+<div class="column">
+<div class="flex-container">
+<div class="card">
 <img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
-<button class="container1" id="button1">Button</button>
-<img src="https://via.placeholder.com/250" id="ph-img2" class="container1">
-<button class="container1" id="button2">Button</button>
-<img src="https://via.placeholder.com/250" id="ph-img3" class="container1">
-<button class="container1" id="button3">Button</button>
-
-
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+<button onclick="window" id="button1">Button</button></a>
+</div>
+<div class="card">
+<img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+<button onclick="window" id="button1">Button</button></a>
+</div>
+<div class="card">
+<img src="https://via.placeholder.com/250" id="ph-img1" class="container1">
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+<button onclick="window" id="button1">Button</button></a>
+</div>
+</div>
+</div>
 	</html>
